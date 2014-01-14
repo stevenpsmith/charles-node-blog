@@ -1,0 +1,11 @@
+# Mac OS X Finder and whatnot
+.DS_Store
+
+# Xcode 4 http://stackoverflow.com/questions/49478/git-ignore-file-for-xcode-projects
+xcuserdata
+
+#CocoaPods
+Pods/
+
+#node
+node/node_modules
