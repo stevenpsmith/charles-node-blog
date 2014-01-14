@@ -9,8 +9,8 @@ app.get('/weather', function(req, res) {
   	res.json(400, errorJson);
 });
 
-// app.get('/foo', timeout, function(req, res){
-// 	res.send(408, "Request timed out...shucks");
-// });
+app.get('/foo', timeout, function(req, res){
+	res.send(408, "Request timed out...shucks");
+});
 
 app.listen(process.env.PORT || 4730);
